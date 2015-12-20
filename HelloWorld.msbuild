@@ -22,7 +22,7 @@
                   Properties="OutDir=%(BuildArtifactsDir.FullPath);Configuration=$(Configuration);Platform=$(BuildPlatform)" />
        </Target>
 
-	   <Target Name="CopyRoslynFiles" AfterTargets="Compile" Condition="!$(Disable_CopyWebApplication) And '$(OutDir)' != '$(OutputPath)'">
+	   <Target Name="CopyRoslynFiles" AfterTargets="Compile">
 		<ItemGroup>
 			<RoslynFiles Include="$(CscToolPath)\*" />
 		</ItemGroup>
