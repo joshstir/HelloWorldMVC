@@ -26,5 +26,11 @@ namespace HelloWorld.Controllers
 
             return View();
         }
+
+        public ActionResult Josh()
+        {
+            ViewBag.Message = "Your all about josh page";
+            return View();
+        }
     }
 }
