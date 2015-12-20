@@ -1,7 +1,7 @@
 version: 0.0
 os: windows
 files:
-  - source: BuildArtifacts\_PublishedWebsites\HelloWorld\*.*
+  - source: BuildArtifacts\_PublishedWebsites\HelloWorld
     destination: c:\inetpub\wwwroot
 hooks:
   BeforeInstall:
