@@ -29,7 +29,7 @@ namespace HelloWorld.Controllers
 
         public ActionResult Josh()
         {
-            ViewBag.Message = "Your all about josh page";
+            ViewBag.Message = "Josh is cool!";
             return View();
         }
     }
